@@ -1,0 +1,18 @@
+@-moz-document domain("www.youtube.com") {
+/* ==UserStyle==
+@name           No-YT-newness-dots
+@namespace      Yt
+@author         0eoc
+@description    `Deletes newness dots`
+@version        1
+@license        public domean
+@preprocessor   hz4eto
+==/UserStyle== */
+
+
+ytd-guide-entry-renderer[line-end-style=dot] #newness-dot.ytd-guide-entry-renderer {
+    display: block;
+    visibility: hidden;
+}
+
+}
