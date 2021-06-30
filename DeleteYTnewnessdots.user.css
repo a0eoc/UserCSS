@@ -3,15 +3,17 @@
 @name           No-YT-newness-dots
 @namespace      Yt
 @author         0eoc
-@description    `Deletes newness dots`
-@version        1.0.0
+@description    Hides newness dots
+@namespace      https://github.com/a0eoc/UserCSS
+@homepageURL    https://github.com/a0eoc/UserCSS
+@updateURL      https://github.com/a0eoc/UserCSS/raw/master/DeleteYTnewnessdots.user.css
+@supportURL     https://github.com/a0eoc/UserCSS
+@version        1.0.1
 @license        public domean
 @preprocessor   stylus
 ==/UserStyle== */
 
-
 ytd-guide-entry-renderer[line-end-style=dot] #newness-dot.ytd-guide-entry-renderer {
-    display: block;
     visibility: hidden;
 }
 
