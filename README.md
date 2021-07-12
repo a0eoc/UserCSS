@@ -1,7 +1,4 @@
-# NoYTnewnessDots
-Usercss that hides "Newless dots" on www.youtube.com
+### NoYTnewnessDots
+Simplest UserCSS that hides useless "Newless dots" on www.youtube.com
 
-This is too simple to be interested in.
-Devlopment took 2 mins, publish took 24 mins...
-
-![Untitled](https://user-images.githubusercontent.com/42794343/112030269-ebd7b800-8b5b-11eb-9d8d-1829ebd6eae7.png)
+![Screenshot](https://user-images.githubusercontent.com/42794343/125235364-c97ccc80-e2fb-11eb-8b6d-8924c7f5f2bb.png)
