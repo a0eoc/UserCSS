@@ -4,7 +4,7 @@ To use them, you need to install the UserCSS menager extension like open-source 
 ### VDARK
 Dark theme for vk.com desktop version. 
 
-[Install](https://github.com/a0eoc/VDARK/raw/master/vdark.user.css) or read more in the repository.
+[Install](https://github.com/a0eoc/VDARK/raw/master/vdark.user.css) or read more in the [repository](https://github.com/a0eoc/VDARK).
 
 ![Screenshot](https://github.com/a0eoc/VDARK/raw/master/public/preview/1.png)
 
