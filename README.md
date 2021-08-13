@@ -20,6 +20,7 @@ Simplest UserCSS that hides useless "Newless dots" on youtube.com
 
 ### VK_No-FB-reactions
 Hides distracting facebook reactions in VK. You still be able to use likes.
+Included in [VDARK](https://github.com/a0eoc/VDARK).
 
 [Install](https://github.com/a0eoc/UserCSS/raw/main/VK_No-FB-reactions.user.css)
 
