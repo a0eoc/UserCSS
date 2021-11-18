@@ -1,0 +1,20 @@
+@-moz-document domain("vk.com") {
+/* ==UserStyle==
+@name           VK_Hide-Catalog-Button
+@namespace      VK
+@author         0eoc
+@description    Hides catalog button
+@namespace      https://github.com/a0eoc/UserCSS
+@homepageURL    https://github.com/a0eoc/UserCSS
+@updateURL      https://github.com/a0eoc/UserCSS/raw/master/VK_Hide-Catalog-Button.user.css
+@supportURL     https://github.com/a0eoc/UserCSS
+@version        1.0.0
+@license        The Unlicense
+@preprocessor   stylus
+==/UserStyle== */
+
+.TopNavBtn__ecosystemMenuLink {
+    visibility: collapse;
+}
+
+}
