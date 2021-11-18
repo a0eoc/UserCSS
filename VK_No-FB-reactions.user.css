@@ -1,20 +1,20 @@
 @-moz-document domain("vk.com") {
-/* ==UserStyle==
-@name           VK_No-FB-reactions
-@namespace      VK
-@author         0eoc
-@description    Hides facebook reactions in VK
-@namespace      https://github.com/a0eoc/UserCSS
-@homepageURL    https://github.com/a0eoc/UserCSS
-@updateURL      https://github.com/a0eoc/UserCSS/raw/master/VK_No-FB-reactions.user.css
-@supportURL     https://github.com/a0eoc/UserCSS
-@version        1.0.0
-@license        Public domain
-@preprocessor   stylus
-==/UserStyle== */
+	/* ==UserStyle==
+	@name           VK_No-FB-reactions
+	@namespace      VK
+	@author         0eoc
+	@description    Hides reactions
+	@namespace      https://github.com/a0eoc/UserCSS
+	@homepageURL    https://github.com/a0eoc/UserCSS
+	@updateURL      https://github.com/a0eoc/UserCSS/raw/master/VK_No-FB-reactions.user.css
+	@supportURL     https://github.com/a0eoc/UserCSS
+	@version        1.0.1
+	@license        The Unlicense
+	@preprocessor   stylus
+	==/UserStyle== */
 
-[dir] .ReactionsMenu {
-    visibility: collapse;
-}
+	[dir] .ReactionsMenu {
+		visibility: collapse;
+	}
 
 }
