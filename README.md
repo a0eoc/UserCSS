@@ -15,7 +15,7 @@ Hides useless "Newless dots"
 
 [Install](https://github.com/a0eoc/UserCSS/raw/main/YouTube.com/Hide-Newness-Dots.user.css)
 
-![Screenshot](https://user-images.githubusercontent.com/42794343/125235364-c97ccc80-e2fb-11eb-8b6d-8924c7f5f2bb.png)
+![Screenshot](https://github.com/a0eoc/UserCSS/raw/main/YouTube.com/Hide-Newness-Dots_Preview.png)
 
 
 ### VK | Hide Posts Reactions
