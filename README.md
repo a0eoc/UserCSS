@@ -10,19 +10,27 @@ Dark theme for vk.com desktop version.
 
 
 
-### NoYTnewnessDots
-Simplest UserCSS that hides useless "Newless dots" on youtube.com
+### YouTube | Hide Newness Dots
+Hides useless "Newless dots"
 
-[Install](https://github.com/a0eoc/UserCSS/raw/main/DeleteYTnewnessdots.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/YouTube.com/Hide-Newness-Dots.user.css)
 
 ![Screenshot](https://user-images.githubusercontent.com/42794343/125235364-c97ccc80-e2fb-11eb-8b6d-8924c7f5f2bb.png)
 
 
-### VK_No-FB-reactions
+### VK | Hide Posts Reactions
 Hides distracting facebook reactions in VK. You still be able to use likes.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
-[Install](https://github.com/a0eoc/UserCSS/raw/main/VK_No-FB-reactions.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Posts-Reactions.user.css)
 
-![Screenshot](https://user-images.githubusercontent.com/42794343/129148735-cab465a7-d4c6-4b3d-9f18-d4f276592d30.png)
+![Screenshot](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Posts-Reactions_Preview.png)
 
+
+### VK | Hide Catalog Button
+Hides useless VK Group services catalog button.
+Included in [VDARK](https://github.com/a0eoc/VDARK).
+
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Catalog-Button.user.css)
+
+![Screenshot](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Catalog-Button_Preview.png)
