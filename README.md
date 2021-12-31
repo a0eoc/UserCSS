@@ -13,7 +13,7 @@ Dark theme for vk.com desktop version.
 ### YouTube | Hide Newness Dots
 Hides "Newless dots".
 
-[Install](YouTube.com/Hide-Newness-Dots.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/YouTube.com/Hide-Newness-Dots.user.css)
 
 [![Screenshot](YouTube.com/Hide-Newness-Dots_Preview_Thumbnail.png)](YouTube.com/Hide-Newness-Dots_Preview.png)
 
@@ -22,7 +22,7 @@ Hides "Newless dots".
 Hides facebook reactions in VK. You still be able to use likes.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
-[Install](VK.com/Hide-Posts-Reactions.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Posts-Reactions.user.css)
 
 [![Screenshot](VK.com/Hide-Posts-Reactions_Preview_Thumbnail.png)](VK.com/Hide-Posts-Reactions_Preview.png)
 
@@ -31,7 +31,7 @@ Included in [VDARK](https://github.com/a0eoc/VDARK).
 Hides FastChat.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
-[Install](VK.com/Hide-FastChat.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-FastChat.user.css)
 
 [![Screenshot](VK.com/Hide-FastChat_Preview_Thumbnail.png)](VK.com/Hide-FastChat_Preview.png)
 
@@ -40,6 +40,6 @@ Included in [VDARK](https://github.com/a0eoc/VDARK).
 Hides VK Group services catalog button.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
-[Install](VK.com/Hide-Catalog-Button.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Catalog-Button.user.css)
 
 [![Screenshot](VK.com/Hide-Catalog-Button_Preview_Thumbnail.png)](VK.com/Hide-Catalog-Button_Preview.png)
