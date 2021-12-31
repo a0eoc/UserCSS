@@ -11,7 +11,7 @@ Dark theme for vk.com desktop version.
 
 
 ### YouTube | Hide Newness Dots
-Hides useless "Newless dots"
+Hides "Newless dots".
 
 [Install](YouTube.com/Hide-Newness-Dots.user.css)
 
@@ -19,7 +19,7 @@ Hides useless "Newless dots"
 
 
 ### VK | Hide Posts Reactions
-Hides distracting facebook reactions in VK. You still be able to use likes.
+Hides facebook reactions in VK. You still be able to use likes.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
 [Install](VK.com/Hide-Posts-Reactions.user.css)
@@ -27,8 +27,17 @@ Included in [VDARK](https://github.com/a0eoc/VDARK).
 [![Screenshot](VK.com/Hide-Posts-Reactions_Preview_Thumbnail.png)](VK.com/Hide-Posts-Reactions_Preview.png)
 
 
+### VK | Hide FastChat
+Hides FastChat.
+Included in [VDARK](https://github.com/a0eoc/VDARK).
+
+[Install](VK.com/Hide-FastChat.user.css)
+
+[![Screenshot](VK.com/Hide-FastChat_Preview_Thumbnail.png)](VK.com/Hide-FastChat_Preview.png)
+
+
 ### VK | Hide Catalog Button
-Hides useless VK Group services catalog button.
+Hides VK Group services catalog button.
 Included in [VDARK](https://github.com/a0eoc/VDARK).
 
 [Install](VK.com/Hide-Catalog-Button.user.css)
