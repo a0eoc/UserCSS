@@ -19,6 +19,9 @@ Hides "Newless dots".
 
 
 ### VK | Enhancements (configurable)
+
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css)
+
 [![Preview](VK.com/Enhancements_Preview_Thumbnail.png)](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements_Preview.png)
 - Ads hiding.
 - Facebook reactions hiding. [Separate style](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Posts-Reactions.user.css).
