@@ -1,0 +1,34 @@
+/* ==UserStyle==
+@name           Enhancements for YouTube
+@author         0eoc
+@description    Some enhancements for YouTube
+@version        1.0.0
+@license        MIT
+@preprocessor   stylus
+
+@namespace      https://github.com/a0eoc/UserCSS
+@homepageURL    https://github.com/a0eoc/UserCSS
+@updateURL      https://github.com/a0eoc/UserCSS/raw/main/YouTube.com/Enhancements.user.css
+@supportURL     https://github.com/a0eoc/UserCSS
+
+@var checkbox VoiceSearch_Disable "Disable voice search" 1
+@var checkbox NewnessDots_Disable "Disable newness dots" 1
+==/UserStyle== */
+
+@-moz-document domain("youtube.com") {
+	
+	#voice-search-button.ytd-masthead
+	{
+		if VoiceSearch_Disable {
+			display: none;
+		}
+	}
+	
+	ytd-guide-entry-renderer[line-end-style=dot] #newness-dot.ytd-guide-entry-renderer
+	{
+		if NewnessDots_Disable {
+			display: none;
+		}
+	}
+
+}

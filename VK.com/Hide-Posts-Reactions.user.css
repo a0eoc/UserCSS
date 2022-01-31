@@ -7,13 +7,13 @@
 	@homepageURL    https://github.com/a0eoc/UserCSS
 	@updateURL      https://github.com/a0eoc/UserCSS/raw/main/VK.com/Hide-Posts-Reactions.user.css
 	@supportURL     https://github.com/a0eoc/UserCSS
-	@version        1.0.2
+	@version        1.0.3
 	@license        The Unlicense
 	@preprocessor   stylus
 	==/UserStyle== */
 
 	[dir] .ReactionsMenu {
-		visibility: collapse;
+		display: none;
 	}
 
 }
