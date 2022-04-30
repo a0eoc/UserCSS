@@ -2,7 +2,7 @@
 @name           Enhancements for VK
 @author         0eoc
 @description    Some enhancements for VK
-@version        1.0.0
+@version        2.0.0
 @license        MIT
 @preprocessor   stylus
 
@@ -11,58 +11,58 @@
 @updateURL      https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css
 @supportURL     https://github.com/a0eoc/UserCSS
 
-@var checkbox Ads_Disable "Скрытие рекламы" 1
-@var checkbox Reactions_Disble "Скрытие реакций" 1
-@var checkbox FastChat_Disble "Скрытие быстрого чата" 1
-@var checkbox ServicesCatalog_Disble "Скрытие каталога" 1
-@var checkbox FeedStories_Disble "Скрытие историй в новостях" 1
+@var checkbox noAds "Отключение рекламы" 1
+@var checkbox noReactions "Отключение реакций" 1
+@var checkbox noFastchat "Отключение быстрого чата" 1
+@var checkbox noCatalog "Отключение каталога" 1
+@var checkbox noFeedStories "Отключение историй" 1
 
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
 
 	#ads_left {
-		if Ads_Disable {
+		if noAds {
 			display: none !important;
 		}
 	}
 	.apps_feedRightAppsBlock
 	{
-		if Ads_Disable {
+		if noAds {
 			display: none;
 		}
 	}
-	
-	.CatalogBlock__header_promo_banners
-	{
-		if Ads_Disable {
+	.CatalogBlock__header_promo_banners {
+		if noAds {
 			display: none;
 		}
 	}
-	
-	[dir] .ReactionsMenu
-	{
-		if Reactions_Disble {
+  
+	[dir] .ReactionsMenu {
+		if noReactions {
 			display: none;
 		} 
 	}
-	
-	[dir] .vkui, [dir] .vkui>body, [dir] .vkui__root
-	{
-		if FastChat_Disble {
+  
+	[dir] .vkui, [dir] .vkui>body, [dir] .vkui__root {
+		if noFastchat {
 			display: none;
 		} 
 	}
-	
-	.TopNavBtn__ecosystemMenuLink
-	{
-		if ServicesCatalog_Disble {
+  
+	#react_rootEcosystemServicesNavigationEntry {
+		if noCatalog {
+			display: none !important;
+		}
+	}
+	.TopNavBtn__ecosystemMenuLink, .EcosystemServicesNavigationDropdown_dropdown__Vggfr, .EcosystemServicesNavigationDropdown_button__99Wn9 {
+		if noCatalog {
 			display: none;
 		}
 	}
 	
 	[dir] .stories_feed_wrap {
-		if FeedStories_Disble {
+		if noFeedStories {
 			display: none !important;
 		}
 	}
