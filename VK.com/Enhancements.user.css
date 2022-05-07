@@ -2,7 +2,7 @@
 @name           Enhancements for VK
 @author         0eoc
 @description    Some enhancements for VK
-@version        2.0.0
+@version        2.1.0
 @license        MIT
 @preprocessor   stylus
 
@@ -16,55 +16,98 @@
 @var checkbox noFastchat "Отключение быстрого чата" 1
 @var checkbox noCatalog "Отключение каталога" 1
 @var checkbox noFeedStories "Отключение историй" 1
+@var checkbox noRecommendationsMusic "Музыка: убрать рекомендации" 0
+@var checkbox noRecentMusic "Музыка: убрать недавние" 0
+@var checkbox noFriendsMusic "Музыка: убрать друзей справа" 0
+@var checkbox noOddMusic "Музыка: убрать странные кнопки" 0
 
 ==/UserStyle== */
 
 @-moz-document domain("vk.com") {
 
-	#ads_left {
-		if noAds {
-			display: none !important;
-		}
-	}
-	.apps_feedRightAppsBlock
+	#ads_left, ._ads_block_data_w, .mailru-visibility-check, .apps_feedRightAppsBlock, .feed_blog_reminder, .feed_blog_reminder_large, .CatalogBlock__header_promo_banners, .CatalogBlock__audio_friends_separator, .CatalogBlock__subscription_ru
 	{
 		if noAds {
 			display: none;
 		}
 	}
-	.CatalogBlock__header_promo_banners {
-		if noAds {
-			display: none;
-		}
-	}
   
-	[dir] .ReactionsMenu {
-		if noReactions {
+	[dir] .ReactionsMenu
+	{
+		if noReactions
+		{
 			display: none;
 		} 
 	}
   
-	[dir] .vkui, [dir] .vkui>body, [dir] .vkui__root {
-		if noFastchat {
+	[dir] .vkui, [dir] .vkui>body, [dir] .vkui__root
+	{
+		if noFastchat
+		{
 			display: none;
 		} 
 	}
   
-	#react_rootEcosystemServicesNavigationEntry {
-		if noCatalog {
-			display: none !important;
-		}
-	}
-	.TopNavBtn__ecosystemMenuLink, .EcosystemServicesNavigationDropdown_dropdown__Vggfr, .EcosystemServicesNavigationDropdown_button__99Wn9 {
-		if noCatalog {
+	#react_rootEcosystemServicesNavigationEntry, .TopNavBtn__ecosystemMenuLink, .EcosystemServicesNavigationDropdown_dropdown__Vggfr, .EcosystemServicesNavigationDropdown_button__99Wn9
+	{
+		if noCatalog
+		{
 			display: none;
 		}
 	}
 	
-	[dir] .stories_feed_wrap {
-		if noFeedStories {
-			display: none !important;
+	[dir] .stories_feed_wrap
+	{
+		if noFeedStories
+		{
+			display: none;
 		}
 	}
+	
+}
 
+@-moz-document regexp("https?://vk.com(/audios.*)?")
+{
+	.CatalogBlock__recommended_playlists_extended_header, .CatalogBlock__recommended_playlists_extended, .CatalogBlock__playlists_recoms_header, .CatalogBlock__playlists_recoms, .CatalogBlock__recommended_playlists_official_header, .CatalogBlock__recommended_playlists_official, .CatalogBlock__my_curators_header, .CatalogBlock__my_curators
+	{
+		if noRecommendationsMusic
+		{
+			display: none;
+		}
+	}
+	
+	.CatalogBlock__recent_audios_header, .CatalogBlock__recent_audios
+	{
+		if noRecentMusic
+		{
+			display: none;
+		}
+	}
+	
+	if noFriendsMusic
+	{
+		.CatalogSection__rightColumn
+		{
+			display: none;
+		}
+		
+		.CatalogSection__leftColumn
+		{
+			max-width: unset;
+		}
+		
+		[dir=ltr] .CatalogSection__leftColumn
+		{
+			padding-right: 0;
+			border-right: 0;
+		}
+	}
+	
+	.audio_page_player_status, ._audio_page_player_status, .audio_page_player_recoms
+	{
+		if noOddMusic
+		{
+			display: none;
+		}
+	}
 }
