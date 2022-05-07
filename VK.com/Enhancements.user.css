@@ -2,7 +2,7 @@
 @name           Enhancements for VK
 @author         0eoc
 @description    Some enhancements for VK
-@version        2.1.0
+@version        2.1.1
 @license        MIT
 @preprocessor   stylus
 
@@ -64,10 +64,6 @@
 		}
 	}
 	
-}
-
-@-moz-document regexp("https?://vk.com(/audios.*)?")
-{
 	.CatalogBlock__recommended_playlists_extended_header, .CatalogBlock__recommended_playlists_extended, .CatalogBlock__playlists_recoms_header, .CatalogBlock__playlists_recoms, .CatalogBlock__recommended_playlists_official_header, .CatalogBlock__recommended_playlists_official, .CatalogBlock__my_curators_header, .CatalogBlock__my_curators
 	{
 		if noRecommendationsMusic
@@ -91,15 +87,25 @@
 			display: none;
 		}
 		
-		.CatalogSection__leftColumn
+		.audio_layer_container .CatalogSection__leftColumn, .CatalogSection__leftColumn
 		{
-			max-width: unset;
+			max-width: none;
 		}
 		
 		[dir=ltr] .CatalogSection__leftColumn
 		{
 			padding-right: 0;
 			border-right: 0;
+		}
+		
+		[dir=ltr] .audio_layer_container
+		{
+			padding-right: none;
+		}
+		
+		[dir=ltr] .audio_layer_container .CatalogSection__leftColumn
+		{
+			padding-right: 0;
 		}
 	}
 	
