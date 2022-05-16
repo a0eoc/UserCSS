@@ -2,7 +2,7 @@
 @name           Enhancements for VK
 @author         0eoc
 @description    Some enhancements for VK
-@version        2.1.1
+@version        2.2.0
 @license        MIT
 @preprocessor   stylus
 
@@ -25,7 +25,7 @@
 
 @-moz-document domain("vk.com") {
 
-	#ads_left, ._ads_block_data_w, .mailru-visibility-check, .apps_feedRightAppsBlock, .feed_blog_reminder, .feed_blog_reminder_large, .CatalogBlock__header_promo_banners, .CatalogBlock__audio_friends_separator, .CatalogBlock__subscription_ru
+	#ads_left, ._ads_block_data_w, .mailru-visibility-check, .apps_feedRightAppsBlock, .feed_blog_reminder, .feed_blog_reminder_large, .CatalogBlock__header_promo_banners, .CatalogBlock__audio_friends_separator, .CatalogBlock__subscription_ru, ._ads_promoted_post, .own_ads_promoted_post 
 	{
 		if noAds {
 			display: none;
