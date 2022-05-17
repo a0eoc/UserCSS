@@ -1,15 +1,15 @@
 /* ==UserStyle==
-@name           Enhancements for VK
-@author         0eoc
-@description    Some enhancements for VK
-@version        2.2.1
-@license        MIT
-@preprocessor   stylus
+@name          Enhancements for VK
+@author        0eoc
+@description   Some enhancements for VK
+@version       2.2.2
+@license       MIT
+@preprocessor  stylus
 
-@namespace      https://github.com/a0eoc/UserCSS
-@homepageURL    https://github.com/a0eoc/UserCSS
-@updateURL      https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css
-@supportURL     https://github.com/a0eoc/UserCSS
+@namespace     https://github.com/a0eoc/UserCSS
+@homepageURL   https://github.com/a0eoc/UserCSS
+@updateURL     https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css
+@supportURL    https://github.com/a0eoc/UserCSS
 
 @var checkbox noAds "Отключение рекламы" 1
 @var checkbox noReactions "Отключение реакций" 1
@@ -24,17 +24,16 @@
 ==/UserStyle== */
 @-moz-document domain("vk.com") {
     #ads_left,
-	._ads_promoted_post,
+    ._ads_promoted_post,
     ._ads_block_data_w,
-	.own_ads_promoted_post,
+    .own_ads_promoted_post,
     .mailru-visibility-check,
     .apps_feedRightAppsBlock,
     .feed_blog_reminder,
     .feed_blog_reminder_large,
     .CatalogBlock__header_promo_banners,
     .CatalogBlock__audio_friends_separator,
-    .CatalogBlock__subscription_ru
-    {
+    .CatalogBlock__subscription_ru {
         if noAds {
             display: none!important;
         }
