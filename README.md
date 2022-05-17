@@ -15,7 +15,8 @@ Hides "Newless dots".
 [Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css) | [UserStyles.world](https://userstyles.world/style/4733/enhancements-for-vk)
 
 [![Preview](VK.com/Enhancements_Preview_Thumbnail.png)](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements_Preview.png)
-It can configurably hide/disable
+
+Hide/disable
 - ads
 - posts reactions
 - "FastChat"
