@@ -1,5 +1,5 @@
 # My UserCSSs
-To use them, you need to install the UserCSS menager extension like open-source [Stylus](https://github.com/openstyles/stylus).
+To use them, you need to install the UserCSS menager extension such as open-source [Stylus](https://github.com/openstyles/stylus).
 
 ### VDARK
 Dark theme for vk.com desktop version. 
@@ -24,8 +24,10 @@ Hides "Newless dots".
 
 [![Preview](VK.com/Enhancements_Preview_Thumbnail.png)](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements_Preview.png)
 It can configurably hide/disable
-- ads;
-- posts reactions;
-- "FastChat";
-- ecosystem catalog;
-- stories block in feed.
+- ads
+- posts reactions
+- "FastChat"
+- ecosystem catalog
+- stories in feed
+- music recommendations from editors, curators, based on your and friends tastes
+- useless music buttons (broadcast & show similar)
