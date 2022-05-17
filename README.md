@@ -1,14 +1,6 @@
 # My UserCSSs
 To use them, you need to install the UserCSS menager extension such as open-source [Stylus](https://github.com/openstyles/stylus).
 
-### VDARK
-Dark theme for vk.com desktop version. 
-
-[Install](https://github.com/a0eoc/VDARK/raw/master/vdark.user.css) or read more in the [repository](https://github.com/a0eoc/VDARK).
-
-![Screenshot](https://github.com/a0eoc/VDARK/raw/master/public/preview/1.png)
-
-
 
 ### YouTube | Hide Newness Dots
 Hides "Newless dots".
@@ -20,7 +12,7 @@ Hides "Newless dots".
 
 ### VK | Enhancements (configurable)
 
-[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css)
+[Install](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css) | [UserStyles.world](https://userstyles.world/style/4733/enhancements-for-vk)
 
 [![Preview](VK.com/Enhancements_Preview_Thumbnail.png)](https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements_Preview.png)
 It can configurably hide/disable
