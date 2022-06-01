@@ -2,7 +2,7 @@
 @name          Enhancements for VK
 @author        0eoc
 @description   Some enhancements for VK
-@version       2.2.2
+@version       2.3.0
 @license       MIT
 @preprocessor  stylus
 
@@ -16,6 +16,7 @@
 @var checkbox noFastchat "Отключение быстрого чата" 1
 @var checkbox noCatalog "Отключение каталога" 1
 @var checkbox noFeedStories "Отключение историй" 1
+@var checkbox noCalls "ЛС: убрать звонки" 0
 @var checkbox noRecommendationsMusic "Музыка: убрать рекомендации" 0
 @var checkbox noRecentMusic "Музыка: убрать недавние" 0
 @var checkbox noFriendsMusic "Музыка: убрать друзей справа" 0
@@ -67,7 +68,14 @@
             display: none!important;
         }
     }
-
+	
+	.im-page--dialogs-call-wrap,
+	._im_dialog_call_action_wrapper {
+		if noCalls {
+            display: none!important;
+        }
+	}
+	
     .CatalogBlock__recommended_playlists_extended_header,
     .CatalogBlock__recommended_playlists_extended,
     .CatalogBlock__playlists_recoms_header,

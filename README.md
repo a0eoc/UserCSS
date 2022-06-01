@@ -22,5 +22,6 @@ Hide/disable
 - "FastChat"
 - ecosystem catalog
 - stories in feed
+- calls
 - music recommendations from editors, curators, based on your and friends tastes
 - useless music buttons (broadcast & show similar)
