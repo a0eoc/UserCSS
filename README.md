@@ -18,10 +18,10 @@ Hides "Newless dots".
 
 Hide/disable
 - ads
-- posts reactions
-- "FastChat"
 - ecosystem catalog
+- posts reactions
+- "FastChat" (breaks "Messenger settings" pop-up)
 - stories in feed
-- calls
-- music recommendations from editors, curators, based on your and friends tastes
+- calls (in both messenger page and user profiles)
+- music recommendations from editors, curators, based on your and friends tastes (does not affect garbage from the "Explore" tab)
 - useless music buttons (broadcast & show similar)
