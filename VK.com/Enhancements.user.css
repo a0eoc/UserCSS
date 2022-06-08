@@ -2,7 +2,7 @@
 @name          Enhancements for VK
 @author        0eoc
 @description   Some enhancements for VK
-@version       2.3.1
+@version       2.3.2
 @license       MIT
 @preprocessor  stylus
 
@@ -71,7 +71,8 @@
 	
 	.im-page--dialogs-call-wrap,
 	._im_dialog_call_action_wrapper,
-	.Profile__callFriendButton	{
+	.Profile__callFriendButton,
+	.PageActionItem--call-blue {
 		if noCalls {
             display: none!important;
         }
