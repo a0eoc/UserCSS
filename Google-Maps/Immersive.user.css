@@ -1,0 +1,64 @@
+/* ==UserStyle==
+@name           Immersive Street View
+@author         0eoc
+@description    Hides some UI elements on Google Maps Street View
+@version        1.0.0
+@license        MIT
+@preprocessor   stylus
+
+@namespace      https://github.com/a0eoc/UserCSS
+@homepageURL    https://github.com/a0eoc/UserCSS
+@updateURL      https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive.user.css
+@supportURL     https://github.com/a0eoc/UserCSS
+
+@var checkbox noUI "Fully immersive" 0
+@var checkbox noVignette "Remove vignette (& close button)" 0
+@var checkbox noTitleCard "Hide title card" 0
+@var checkbox noMinimap "Hide mini-map" 0
+@var checkbox noInfo "Hide bottom right info" 1
+@var checkbox noWatermark "Remove watermark" 1
+==/UserStyle== */
+
+@-moz-document url-prefix("https://www.google.com/maps/") {
+	.app-vertical-widget-holder
+	{
+		if noUI {
+			display: none;
+		}
+	}
+
+	#image-header
+	{
+		if noVignette or noUI {
+			display: none;
+		}
+	}
+	
+	#titlecard
+	{
+		if noTitleCard or noUI {
+			display: none;
+		}
+	}
+	
+	#minimap
+	{
+		if noMinimap or noUI {
+			display: none;
+		}
+	}
+	
+	.scene-footer-container
+	{
+		if noInfo or noUI {
+			display: none;
+		}
+	}
+	
+	#watermark
+	{
+		if noWatermark {
+			display: none;
+		}
+	}
+}
