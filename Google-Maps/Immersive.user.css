@@ -2,7 +2,7 @@
 @name           Immersive Street View
 @author         0eoc
 @description    Hides some UI elements on Google Maps Street View
-@version        1.0.0
+@version        1.0.1
 @license        MIT
 @preprocessor   stylus
 
@@ -20,7 +20,8 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.google.com/maps/") {
-	.app-vertical-widget-holder
+	.app-vertical-widget-holder,
+	.app-horizontal-widget-holder
 	{
 		if noUI {
 			display: none;
