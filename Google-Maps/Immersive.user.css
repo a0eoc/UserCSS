@@ -20,6 +20,7 @@
 ==/UserStyle== */
 
 @-moz-document url-prefix("https://www.google.com/maps/") {
+	#play,
 	.app-vertical-widget-holder,
 	.app-horizontal-widget-holder
 	{
