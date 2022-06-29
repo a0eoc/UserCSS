@@ -1,10 +1,10 @@
 # My UserCSSs
-To use them, you need to install the UserCSS menager extension such as open-source [Stylus](https://github.com/openstyles/stylus).
-
+To use them, you need to install the UserCSS menager extension such as open-source [Stylus](https://github.com/openstyles/stylus).  
+[Chrome Web Store](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne) | [Firefox add-ons](https://addons.mozilla.org/en-US/firefox/addon/styl-us/) | [Opera add-ons](https://addons.opera.com/en/extensions/details/stylus/) | [More](https://github.com/openstyles/stylus#releases)
 
 ### Immersive Google Maps Street View
 
-[Install](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive.user.css)  
+[Install](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive.user.css) | [UserStyles.world](https://userstyles.world/style/5386/immersive-street-view)  
 [![Preview](Google-Maps/Immersive_Preview_Thumbnail.jpg)](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive_Preview.jpg)  
 Allows you to hide the interface completely, as well as its individual elements.  
 [![style settings](Google-Maps/Immersive_Settings.png)](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive_Settings.png)  
