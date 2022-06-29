@@ -20,7 +20,8 @@ Can hide/disable
 - posts reactions
 - "FastChat" (breaks "Messenger settings" pop-up)
 - stories in feed
-- calls (in both messenger page and user profiles)
+- calls (in messages and user profiles separately)
+- status badges (in messages and user profiles separately)
 - music recommendations from editors, curators, based on your and friends tastes (does not affect garbage from the "Explore" tab)
 - useless music buttons (broadcast & show similar)
 

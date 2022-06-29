@@ -2,7 +2,7 @@
 @name          Enhancements for VK
 @author        0eoc
 @description   Some enhancements for VK
-@version       2.3.2
+@version       2.4.0
 @license       MIT
 @preprocessor  stylus
 
@@ -11,12 +11,17 @@
 @updateURL     https://github.com/a0eoc/UserCSS/raw/main/VK.com/Enhancements.user.css
 @supportURL    https://github.com/a0eoc/UserCSS
 
-@var checkbox noAds "Отключение рекламы" 1
-@var checkbox noReactions "Отключение реакций" 1
-@var checkbox noFastchat "Отключение быстрого чата" 1
-@var checkbox noCatalog "Отключение каталога" 1
-@var checkbox noFeedStories "Отключение историй" 1
-@var checkbox noCalls "ЛС и профили: убрать звонки" 0
+@var checkbox noAds "Скрытие рекламы" 1
+@var checkbox noReactions "Скрытие реакций" 1
+@var checkbox noFastchat "Скрытие быстрого чата" 1
+@var checkbox noCatalog "Скрытие каталога" 1
+@var checkbox noFeedStories "Скрытие историй" 1
+
+@var checkbox noCallsIM "Скрытие звонков: ЛС" 0
+@var checkbox noCallsProfiles "Скрытие звонков: Профили" 0
+@var checkbox noBadgesIM "Скрытие значков: ЛС" 1
+@var checkbox noBadgesProfiles "Скрытие значков: Профили" 0
+
 @var checkbox noRecommendationsMusic "Музыка: убрать рекомендации" 0
 @var checkbox noRecentMusic "Музыка: убрать недавние" 0
 @var checkbox noFriendsMusic "Музыка: убрать друзей справа" 0
@@ -69,14 +74,34 @@
         }
     }
 	
+	
 	.im-page--dialogs-call-wrap,
-	._im_dialog_call_action_wrapper,
-	.Profile__callFriendButton,
-	.PageActionItem--call-blue {
-		if noCalls {
+	._im_dialog_call_action_wrapper {
+		if noCallsIM {
             display: none!important;
         }
 	}
+	.Profile__callFriendButton,
+	.PageActionItem--call-blue {
+		if noCallsProfiles {
+            display: none!important;
+        }
+	}
+	
+	/* .image_status__status, .image_status__statusImage */
+	.image_status__status--normal
+	{
+		if noBadgesIM {
+			display: none!important;
+		}
+	}
+	.image_status__status--large
+	{
+		if noBadgesProfiles {
+			display: none!important;
+		}
+	}
+	
 	
     .CatalogBlock__recommended_playlists_extended_header,
     .CatalogBlock__recommended_playlists_extended,
