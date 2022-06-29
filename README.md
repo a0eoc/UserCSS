@@ -5,9 +5,9 @@ To use them, you need to install the UserCSS menager extension such as open-sour
 ### Immersive Google Maps Street View
 
 [Install](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive.user.css)  
-[![Preview](Google-Maps/Immersive_Preview_Thumbnail.jpg)](Google-Maps/Immersive_Enhancements_Preview.jpg)  
+[![Preview](Google-Maps/Immersive_Preview_Thumbnail.jpg)](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive_Preview.jpg)  
 Allows you to hide the interface completely, as well as its individual elements.  
-![style settings](Google-Maps/Immersive_Settings.png)
+[![style settings](Google-Maps/Immersive_Settings.png)](https://github.com/a0eoc/UserCSS/raw/main/Google-Maps/Immersive_Settings.png)  
 
 ### VK | Enhancements
 
